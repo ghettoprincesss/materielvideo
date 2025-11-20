@@ -14,7 +14,7 @@
 
 
   /* taille des textes :  */
-  --fontsizeGlobal : 1.1em;
+  --fontsizeGlobal : 0.8em;
   --fontSizeH1 : 40px;
   --fontSizeH2 : 40px;
 }
@@ -114,7 +114,7 @@ figure,video{
 
 figcaption{
 	font-style: italic;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	margin-top: 0.5vw;
 }
 
@@ -152,12 +152,8 @@ a:hover {
 	margin-top:2vw;
 	background-color: grey;
 	margin-bottom:2vw;
-	font-size:1.2em
+	font-size:1.2em;
+  width:20vw;
 }
 
 /* canvas{display: none;} */
-
-
-
-
-
