@@ -52,6 +52,21 @@ h1{
 	font-family: "termm";
 }
 
+#titre {
+  transition: all 0.4s ease;
+  cursor: default;
+  display: inline-block;
+}
+
+#titre.hover {
+  filter: blur(1px);
+  text-shadow: 
+    2px 0 rgb(94, 94, 94),
+    -2px 0 rgb(205, 205, 205);
+  transform: skewX(2deg);
+}
+
+
 h2{
 	color: var(--couleurTitre);
 	font-size: var(--fontSizeH2);
@@ -137,6 +152,7 @@ a:hover {
 	margin-top:2vw;
 	background-color: grey;
 	margin-bottom:2vw;
+	font-size:1.2em
 }
 
 /* canvas{display: none;} */
