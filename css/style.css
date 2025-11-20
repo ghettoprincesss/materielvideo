@@ -1,6 +1,6 @@
 :root {
 	/* marges : */
-  --margeDeLaPage: 100px;
+  --margeDeLaPage: 80px;
   --espaceEntreLesBlocs : 50px;
 
   /* couleurs */
@@ -157,3 +157,4 @@ a:hover {
 }
 
 /* canvas{display: none;} */
+
