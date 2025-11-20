@@ -22,7 +22,8 @@
 
 <body class="scroll-container">
 	<header>
-    <h1>Matériel vidéo</h1>
+    <h1 id="titre">Matériel vidéo</h1>
+
     <p class="premier" id="test">
       À partir d’images d’archives de caméras, cassettes, lecteurs et mini-télé trouvées sur Gallica, je m’intéresse surtout 
       à leur esthétique matérielle : leurs formes, leurs textures, leurs détails, tout ce qu’elles racontent avant même de filmer.<br><br>
@@ -30,8 +31,6 @@
       Avec p5.js, je viens déformer ces images par le code. Au lieu que les machines produisent elles-mêmes leurs images, 
       ce sont elles qui deviennent sujettes à la transformation : entre grains, glitchs et irrégularités, je m’inspire des effets 
       qu’elles pourraient provoquer pour les habiller.
-
-
 
 
     </p>
@@ -93,6 +92,21 @@
 </html>
 
 
+<script>
+const titre = document.getElementById("titre");
+const texteNormal = "Matériel vidéo";
+const texteGlitch = "M̴̟͕̠͉̎̅̈a̴̡͘t̴̙̳̔͂̕͠ę̷͎̜́̍͋̃r̴̡̲̖̻͑̐͊î̴͎̩̂̌̊e̶͛̂̇̓ͅl̵̦͑ ̶̯̉v̶͉̩̄i̶̠̲̳͗̅̇̌ḓ̶̼͇̈́̕̚̚é̶̺͓̭͛̊ơ̶̬̟͘";
+
+titre.addEventListener("mouseenter", () => {
+  titre.textContent = texteGlitch;
+  titre.classList.add("hover");
+});
+
+titre.addEventListener("mouseleave", () => {
+  titre.textContent = texteNormal;
+  titre.classList.remove("hover");
+});
+</script>
 
 <!-- ne pas toucher  -->
 <script>
