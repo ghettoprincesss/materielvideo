@@ -9,7 +9,7 @@
   --couleurFond : rgb(5, 5, 8);
 
   /* dimension des blocs */
-  --largeurPremierBloc : 500px;
+  --largeurPremierBloc : 400px;
   --largeurAside : 250px;
 
 
@@ -153,7 +153,6 @@ a:hover {
 	background-color: grey;
 	margin-bottom:2vw;
 	font-size:1.2em;
-  width:20vw;
 }
 
 /* canvas{display: none;} */
